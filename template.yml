@@ -38,6 +38,8 @@ Resources:
       Handler: com.example.FunctionRequestHandler
       Runtime: provided.al2023
       CodeUri: target/function.zip
+      #Runtime: java21
+      #CodeUri: target/mirconaut-aws-lambda-graalvm-maven-0.1.jar
       MemorySize: 1024
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 30
